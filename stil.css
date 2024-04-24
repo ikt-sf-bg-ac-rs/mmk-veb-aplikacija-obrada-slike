@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    color: rgb(24, 24, 26);
+    background-color: aquamarine;
+}
+
+.glavniDiv{
+    width: 80%;
+    border: 2px solid rgb(35, 35, 134);
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    max-height: 57em;
+    /* overflow: auto; */
+    background-color: white;
+}
+
+.glavniDiv div{
+    width: 80%;
+    /* border: 2px solid rgb(27, 27, 148);
+    border-radius: 10px; */
+    margin: 0 auto 0 auto;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    overflow: auto;
+}
+
+img{
+    border: 2px dashed rgb(36, 36, 138);
+    border-radius: 10px;
+    width: 80%;
+}
+
+button{
+    width: 7em;
+    border: 1px solid rgb(27, 27, 148);
+    border-radius: 10px;
+    padding: 0.6em;
+}
+
+#kodSlike, #vrednostiSvihPiksela{
+    width: 80%;
+    height: 300px;
+    border: 2px solid rgb(27, 27, 148);
+    border-radius: 10px;
+    resize: none;
+}
+
+canvas{
+    width: 80%;
+    /* border: 2px dashed rgb(36, 36, 138); */
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px gray);
+}
+
+input{
+    width: 12em;
+    border: 1px solid rgb(27, 27, 148);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#pikseli, #trenutniPiksel{
+
+    width: 14em;
+    height: 14em;
+    /* border: 2px solid rgb(27, 27, 148);;
+    border-radius: 15px; */
+
+}
+
+/*
+#vrednostiPiksela{
+
+    width: 7em;
+    height: 14em;
+
+}
+
+#selektovaniPiksel{
+
+    width: 7em;
+    height: 14em;
+
+}
+*/

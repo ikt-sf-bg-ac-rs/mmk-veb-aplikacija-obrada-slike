@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMK aplikacija za obradu slike</title>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+
+</head>
+
+<body>
+    
+    <div class="glavniDiv">
+
+
+        <div class="levaKolona">
+
+            <div>
+                <h3>MMK aplikacija za prikaz, "base64" kodovanje i obradu slike preko veba</h3>
+                <hr>
+            </div>
+    
+            <div>
+                <b>Odabir slike: </b>
+            </div>
+    
+            <div>
+                <input type="file" id="odabirSlike">
+            </div>
+    
+            <div>
+               <canvas width="500" height="500" id="canvas1"></canvas>
+               <hr>
+            </div>
+    
+            <div>
+                <button id="kodovanje">Kodovanje</button>
+                <button id="noviUnos">Novi unos</button>
+            </div>
+    
+            <div>
+                <textarea id="kodSlike"></textarea>
+            </div>
+
+        </div>
+
+        <div class="desnaKolona">
+
+            <!-- Nastavak -->  
+
+            <div>
+                <b>Obrada slike</b>
+                <hr>
+            </div>
+
+            <div>
+                <button id="obradaSlike">Obrada slike</button>
+            </div>
+
+            <div>
+                <p>Rezolucija slike:</p>
+                <input id="rezolucijaSlike" type="text">
+            </div>
+            
+            <div>
+                <p>Broj piksela slike:</p>
+                <input id="brPikselaSlike" type="text">
+            </div>
+
+            <div>
+                <p>Prikaz vrednosti selektovanog piksela slike:</p>
+                <div id="pikseli"></div>
+            </div>
+
+            <div>
+                <p>Prikaz vrednosti trenutnog piksela slike:</p>
+                <div id="trenutniPiksel"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="kod.js"></script>
+
+</body>
+</html>
+
